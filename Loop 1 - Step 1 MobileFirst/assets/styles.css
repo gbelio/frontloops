@@ -1,0 +1,81 @@
+ *{
+    font-family: Roboto, sans-serif;
+}
+body{
+    background-color: #7c9bcc;
+}
+
+.global{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    margin: 18vh 2vw;
+    padding: 5vh 2vw;
+    box-shadow: 0px 0px 18px 0px rgba(117,117,117,1);
+    border-radius: 5px;
+}
+
+a {
+    width: 30vw;
+    height: 100%;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+a:hover{
+    text-decoration: none;
+    text-decoration-line: none;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    height: 100%;
+}
+
+p{
+    font-size: 0.88em;
+    color: #9e9b97;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+img{
+    margin-bottom: 50px;
+    width: 11w;
+    height: 11vh;
+}
+
+h3{
+    color: #5463c4;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+h3:before{
+    content: "$";
+    font-size: 0.5em;
+    vertical-align: 10px;
+    letter-spacing: -10px;
+    font-weight: bold;
+}
+
+h3:after{
+  content: "/month";
+  font-size: 0.5em;
+  color: #5463c4;
+
+}
+
+h1{
+    font-size: 1.4em;
+    font-weight: 900;
+    font-weight: bold;
+    color: #5463c4;
+    letter-spacing: 4px;
+}
+
+@media  (max-width: 992px){
+    .global{
+        margin: 5vh 2vw;
+    }
+}
