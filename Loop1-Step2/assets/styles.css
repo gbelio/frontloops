@@ -71,7 +71,8 @@ img{
     font-weight: bold;
     font-size: 1.3em;
     justify-content: center;
-    margin-bottom: 12px;
+    padding-bottom: 9px;
+    margin-top: 10px;
 }
 
 .labelTarjetas{
@@ -130,6 +131,7 @@ ul{
 
 li{
     color:#e5e5e5;
+    font-size: 30px;
 }
 
 li:hover{
